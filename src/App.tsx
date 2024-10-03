@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+
 import "./App.css";
 
 const randomPosition = () => ({
@@ -80,7 +81,7 @@ const App: React.FC = () => {
             style={{ position: "absolute", ...correctButtonPosition }}
             onClick={handleSubmit}
           >
-            Enter
+            Enter (THIS ONE)
           </button>
         </form>
       )}
